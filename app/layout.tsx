@@ -14,10 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <div className="container mx-auto">
-        <Header />
-        <body bg-black min-h-screen>{children}</body>
-      </div>
+      <body>{children}</body>
     </html>
   );
 }

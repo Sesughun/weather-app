@@ -3,3 +3,12 @@
 @tailwind utilities;
 
 
+module.exports  = {
+    
+    plugins: [
+      require('tailwindcss/text-stroke'), 
+    ],
+  };
+  .bg-transition {
+    transition: background-image 0.5s ease-in-out;
+  }
